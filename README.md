@@ -12,7 +12,7 @@ Get /account/12345
 Response:
 <account>
 <account_number>12345</account_number>
-    <balance currency="usd">100.00</balance>
+    balance currency="usd">100.00</balance>
     <link rel="deposit" href="/account/12345/deposit" />
     <link rel="deposit" href="/account/12345/withdraw" />
     <link rel="deposit" href="/account/12345/transfer" />

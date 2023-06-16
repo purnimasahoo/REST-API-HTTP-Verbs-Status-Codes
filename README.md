@@ -49,9 +49,7 @@ REST is built on the HTTP protocol. Therefore, our APIs should use HTTP status c
 
 ![Alt text](image-1.png)
 
-![Alt text](image-2.png)
 
-![Alt text](image-3.png) 
 
 
 

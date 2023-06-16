@@ -21,7 +21,7 @@ Response:
     <link rel="deposit" href="/account/12345/transfer" >
 
     <link rel="deposit" href="/account/12345/close" >
-</account>
+<account>
 
 Well designed APIs are self-descriptive, improving their usability and discoverability. When a client interacts with a resource, the API provides information not just about the resource itself, but also about related resources and possible actions, all represented through hypermedia links.
 

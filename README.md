@@ -53,6 +53,6 @@ REST is built on the HTTP protocol. Therefore, our APIs should use HTTP status c
 
 ![Alt text](image-3.png) 
 
-![Alt text](image-4.png)
+
 
 A golden rule we should always follow is to return a code for every response, even if it is a timeout. Adhering to this rule ensures predictable and consistent behavior. It is crucial for maintaining a high-quality service.

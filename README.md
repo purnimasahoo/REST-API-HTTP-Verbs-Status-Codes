@@ -12,11 +12,15 @@ Get /account/12345
 Response:
 <account>
 <account_number>12345</account_number>
-    balance currency="usd">100.00</balance>
-    <link rel="deposit" href="/account/12345/deposit" />
-    <link rel="deposit" href="/account/12345/withdraw" />
-    <link rel="deposit" href="/account/12345/transfer" />
-    <link rel="deposit" href="/account/12345/close" />
+    <balance currency="usd">100.00</balance>
+
+    <link rel="deposit" href="/account/12345/deposit" >
+
+    <link rel="deposit" href="/account/12345/withdraw" >
+
+    <link rel="deposit" href="/account/12345/transfer" >
+
+    <link rel="deposit" href="/account/12345/close" >
 </account>
 
 Well designed APIs are self-descriptive, improving their usability and discoverability. When a client interacts with a resource, the API provides information not just about the resource itself, but also about related resources and possible actions, all represented through hypermedia links.
